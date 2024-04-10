@@ -1,4 +1,6 @@
 numpy
 pandas
 seaborn
--e .
+matplotlib
+#-e .
+#python -m src.components.data_ingestion 

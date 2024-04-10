@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail):
     _, _, exc_tb = error_detail  # Unpack the tuple
@@ -17,7 +17,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__ == "__main__":
+if __name__ =="__main__":
     # Configure logging to write logs to a file
     logging.basicConfig(filename='error.log', level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s')
