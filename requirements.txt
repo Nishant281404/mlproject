@@ -2,7 +2,8 @@ numpy
 pandas
 seaborn
 matplotlib
-#-e .
+sciket-learn
+-e.
 #python -m src.components.data_ingestion -use to run any  .py file sometime directly \\
 """/*let’s understand why python src/Exception.py didn’t work.
 
