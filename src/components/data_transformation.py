@@ -1,12 +1,12 @@
+import os
 import sys
 from dataclasses import dataclass
 
 import numpy as numpy
 import pandas as pd
-import sciket_learn as sklearn
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
-from sklearn.pipeline import pipeline
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from src.Exception import CustomException
